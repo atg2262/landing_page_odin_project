@@ -1,6 +1,6 @@
 img {
     width: 200px;
-    height: auto;
+    height: 150px;
 } 
 
 ul {
@@ -71,4 +71,15 @@ a:active {
     color: #1F2937;
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
+}
+
+.mid-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info {
+    max-width: 200px;
 }
