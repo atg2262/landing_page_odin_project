@@ -30,10 +30,13 @@ a:active {
 .links {
     display: flex;
     gap: 16px;
+    font-size: 18px;
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
 }
 
