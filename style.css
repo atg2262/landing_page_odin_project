@@ -14,9 +14,18 @@ a:link {
     color: black;
 } 
 
-.header {
-    background-color: #1F2937;
+.logo {
     font-size: 24px;
     color: #F9FAF8;
+    display: flex;
+}
+
+.links {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
 }
 
