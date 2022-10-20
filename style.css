@@ -9,6 +9,11 @@ ul {
     padding: 0;
 }
 
+.img-1 {
+    display: flex;
+    align-items: flex-end;
+}
+
 a:link {
     text-decoration: none;
     color: #E5E7EB;
@@ -36,18 +41,17 @@ a:active {
 .header {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-between;
-    align-items: center; 
+    justify-content: space-between; 
     margin-bottom: 80px;
+    margin: 10px 20px 80px 20px
     
 }
 
 .top-container {
     background-color: #1F2937;
     margin-bottom: 40px;
-    /*display: flex;
+    display: flex; 
     flex-direction: column;
-    justify-content: space-between;*/
 }
 
 .awesome {
@@ -100,15 +104,19 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 80px;
+    font-size: 36px;
+    font-style: italic; 
+    font-weight: 300;
 } 
 
 .author {
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-bottom: 40px;
-    margin-left: 610px;
+    margin-bottom: 80px;
+    margin-left: 1455px; 
+    font-size: 18px; 
 }
 
 body {
