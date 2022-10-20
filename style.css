@@ -45,10 +45,17 @@ a:active {
 .top-container {
     background-color: #1F2937;
     margin-bottom: 40px;
-    padding-bottom: 40px;
-    /*display: flex; 
-    flex-direction: column;*/
+    padding-bottom: 40px; 
+    display: flex; 
+    flex-direction: column;
 }
+
+.left-and-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .awesome {
     font-size: 48px;
@@ -129,7 +136,16 @@ body {
     margin-left: 80px;
     margin-right: 80px; 
     border-radius: 5px;
-    padding: 20px;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .button-2 {
