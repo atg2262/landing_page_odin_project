@@ -9,11 +9,6 @@ ul {
     padding: 0;
 }
 
-.img-1 {
-    display: flex;
-    align-items: flex-end;
-}
-
 a:link {
     text-decoration: none;
     color: #E5E7EB;
@@ -50,8 +45,9 @@ a:active {
 .top-container {
     background-color: #1F2937;
     margin-bottom: 40px;
-    display: flex; 
-    flex-direction: column;
+    padding-bottom: 40px;
+    /*display: flex; 
+    flex-direction: column;*/
 }
 
 .awesome {
