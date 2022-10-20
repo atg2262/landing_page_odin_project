@@ -131,12 +131,16 @@ body {
     margin-top: 20px;
     margin-bottom: 40px;
     margin-left: 80px;
-    margin-right: 80px;
+    margin-right: 80px; 
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .button-2 {
     background-color: #3882F6; 
     border: 5px solid #F9FAF8;
+    display: flex;
+    justify-content: flex-end;
 } 
 
 .footer {
@@ -148,4 +152,14 @@ body {
     padding-bottom: 40px;
     justify-content: center;
     align-items: center;
+}
+
+.action {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.request {
+    font-size: 18px;
+    color: #E5E7EB;
 }
