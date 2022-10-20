@@ -72,6 +72,7 @@ a:active {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 4px;
+    border: none;
 } 
 
 .random-info {
@@ -133,10 +134,10 @@ body {
     background-color: #3882F6;
     margin-top: 20px;
     margin-bottom: 35px;
-    margin-left: 80px;
-    margin-right: 80px; 
+    margin-left: 100px;
+    margin-right: 100px; 
     border-radius: 5px;
-    padding: 20px; 
+    padding: 10px; 
     display: flex;
     flex-direction: column;
 }
