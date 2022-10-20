@@ -113,10 +113,10 @@ a:active {
 
 .author {
     display: flex;
-    justify-content: center; 
+    justify-content: flex-end;
+    padding-right: 180px;
     align-items: center;
-    margin-bottom: 80px;
-    margin-left: 1455px; 
+    margin-bottom: 80px; 
     font-size: 18px; 
 }
 
