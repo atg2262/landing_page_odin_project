@@ -3,6 +3,10 @@ img {
     height: 150px;
 } 
 
+.left-portion {
+    max-width: 400px;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -37,8 +41,7 @@ a:active {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between; 
-    margin-bottom: 80px;
-    margin: 10px 20px 80px 20px
+    margin: 10px 100px 80px 100px
     
 }
 
@@ -52,8 +55,10 @@ a:active {
 
 .left-and-right {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: center; 
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 
@@ -149,13 +154,6 @@ body {
     gap: 20px;
 }
 
-.button-2 {
-    background-color: #3882F6; 
-    border: 5px solid #F9FAF8;
-    display: flex;
-    justify-content: flex-end;
-} 
-
 .footer {
     display: flex;
     background-color: #1F2937;
@@ -175,4 +173,9 @@ body {
 .request {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.img-1 {
+    width: 500px;
+    height: auto;
 }
